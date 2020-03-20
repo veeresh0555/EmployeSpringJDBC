@@ -7,7 +7,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 
 @Configuration
-@ComponentScan(basePackages = {"com.example.Employetrack"})
+@ComponentScan(basePackages = {"com.example.controller"})
 @EnableWebMvc
 public class WebConfig extends WebMvcConfigurerAdapter {
 
